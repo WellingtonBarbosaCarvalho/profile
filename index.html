@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhamento CNH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0px auto;
+
+            background: white;
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background: #8BC34A;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            font-size: 18px;
+            font-weight: bold;
+            position: relative;
+        }
+        .header .arrow {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header .arrow::before {
+            content: '\2190'; /* Unicode seta para esquerda */
+            font-size: 20px;
+            color: white;
+        }
+        .title {
+            text-align: center;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .profile-pic {
+            display: block;
+            margin: 10px auto;
+            width: 90px;
+            height: 90px;
+            border: 1px solid #ddd;
+            object-fit: cover;
+        }
+        .info {
+            font-size: 14px;
+            line-height: 1.6;
+            padding: 10px 0px 120px 100px;
+        }
+        .info div {
+            padding: 5px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .info div:last-child {
+            border-bottom: none;
+        }
+        .label {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="arrow"></div>
+            Detalhamento
+        </div>
+        <div class="title">CNH SENATRAN</div>
+        <img src="https://i.ibb.co/1tX860xP/0f47d01b-8980-4827-b2c5-18037e361e44-2.webp" alt="Foto CNH" class="profile-pic">
+        <div class="info">
+            <div><span class="label">Nome:</span> MARCELO DA SILVA FERREIRA</div>
+            <div><span class="label">Nome Civil:</span> MARCELO DA SILVA FERREIRA</div>
+            <div><span class="label">Doc. Identidade/Org. Emissor/UF:</span> 45987213 SSP RJ</div>
+            <div><span class="label">CPF:</span> 12345678901</div>
+            <div><span class="label">Data de Nascimento:</span> 05/08/1985</div>
+            <div><span class="label">Filiação Pai:</span> JOÃO FERREIRA NETO</div>
+            <div><span class="label">Filiação Mãe:</span> MARIA DA SILVA FERREIRA</div>
+            <div><span class="label">Validade:</span> 15/09/2030</div>
+            <div><span class="label">Cat. Hab.:</span> AB</div>
+            <div><span class="label">N° Registro:</span> 98765432123</div>
+            <div><span class="label">1ª Habilitação:</span> 20/02/2005</div>
+            <div><span class="label">Observações:</span> Nenhuma</div>
+            <div><span class="label">Local:</span> RIO DE JANEIRO, RJ</div>
+            <div><span class="label">UF:</span> RJ</div>
+            <div><span class="label">Data de Emissão:</span> 15/09/2020</div>
+            <div><span class="label">Número Validação CNH:</span> 78541236987</div>
+            <div><span class="label">Número Formulário RENACH:</span> RJ001245678</div>
+        </div>
+    </div>
+</body>
+</html>
